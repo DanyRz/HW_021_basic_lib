@@ -54,5 +54,10 @@ object.to_json()
 Using this method, obtained dates will be in yyyymmdd format.  
 
 # How to run it  
-1. 
+1. Run from terminal:  
+pip install requests matplotlib  
+pip install -i https://test.pypi.org/simple/ exchange-lib-Rozhankivskij  
+2. In your file:  
+from bank_models.source import NBUData, PrivatbankData  
+
 
